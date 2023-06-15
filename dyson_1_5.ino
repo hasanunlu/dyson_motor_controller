@@ -94,7 +94,6 @@ const uint8_t early_pulse_cycles[]
   REF_CYCLE_FROM_DISABLE_TO_ENABLE - 3,
   REF_CYCLE_FROM_DISABLE_TO_ENABLE - 4,
   REF_CYCLE_FROM_DISABLE_TO_ENABLE - 5,
-  REF_CYCLE_FROM_DISABLE_TO_ENABLE - 6,
 #elif defined(DYSON_V2)
   0,
   0,
@@ -127,7 +126,6 @@ const uint8_t pulse_cycle_arr[]
    19,
    13,
    9,
-   9,
 #elif defined(DYSON_V2)
   100,
    45,
@@ -159,8 +157,7 @@ const float rpm_thresholds[][2]
   {10000.f,   35000.f},
   {30000.f,   65000.f},
   {60000.f,   80000.f},
-  {70000.f,   90000.f},
-  {80000.f,  140000.f}
+  {70000.f,  140000.f},
 #elif defined(DYSON_V2)
   {0.f,      20000.f},
   {15000.f,  30000.f},
